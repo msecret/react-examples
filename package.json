@@ -1,0 +1,25 @@
+{
+  "name": "react-examples",
+  "version": "1.0.0",
+  "description": "Test repo to understand react work flow",
+  "main": "public/index.html",
+  "devDependencies": {
+    "css-loader": "^0.14.4",
+    "node-libs-browser": "^0.5.2",
+    "style-loader": "^0.12.3",
+    "webpack": "^1.9.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msecret/react-examples.git"
+  },
+  "author": "Marco Segreto <msegreto@miceover.com>",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/msecret/react-examples/issues"
+  },
+  "homepage": "https://github.com/msecret/react-examples#readme"
+}
