@@ -12,11 +12,17 @@ module.exports = {
 
   module: {
     loaders: [
-      { test: /\.css$/, 
-        loader: ExtractTextPlugin.extract('style-loader', 'css-loader') 
+      { test: /\.css$/,
+        loader: ExtractTextPlugin.extract(
+          'style-loader',
+          'css-loader?localIdentName=[name]__[local]___[hash:base64:5]!postcss-loader')
       }
     ]
   },
+
+  // Provide the Local Scope plugin to postcss-loader:
+  postcss: [ require('postcss-local-scope') ],
+
   plugins: [
     new ExtractTextPlugin("style.css", { allChunks: true })
   ]
