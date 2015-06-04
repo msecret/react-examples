@@ -1,0 +1,26 @@
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Helvetica', 'Arial';
+}
+
+h1 {
+  font-size: 24rem;
+}
+h2 {
+  font-size: 20rem;
+}
+h2.test {
+  color: black;
+}
+.test.test {
+  color: black;
+}
+h3 {
+  font-size: 16rem;
+}
+h4 {
+  font-size: 12rem;
+}
+h5 {
+  font-size: 10rem;
+}
