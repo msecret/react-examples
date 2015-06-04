@@ -1,2 +1,2 @@
-# react-examples
-Place for me to explore react
+# testing-ground
+Place for me to explore front end technologies
