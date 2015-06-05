@@ -1,4 +1,9 @@
 
+:root {
+  --color: red;
+}
+
 :local(.foo) {
-  color: red;
+  color: var(--color);
+  text-decoration: underline;
 }

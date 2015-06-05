@@ -1,26 +1,28 @@
 
+@import 'vars.css';
+
+:root {
+  --primary: yellow;
+}
+
 h1, h2, h3, h4, h5 {
+  color: var(--primary);
+  background: var(--secondary);
   font-family: 'Helvetica', 'Arial';
 }
 
 h1 {
-  font-size: 24rem;
+  font-size: 14rem;
 }
 h2 {
-  font-size: 20rem;
-}
-h2.test {
-  color: black;
-}
-.test.test {
-  color: black;
+  font-size: 10rem;
 }
 h3 {
-  font-size: 16rem;
+  font-size: 6rem;
 }
 h4 {
-  font-size: 12rem;
+  font-size: 3rem;
 }
 h5 {
-  font-size: 10rem;
+  font-size: 1.5rem;
 }

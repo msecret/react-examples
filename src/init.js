@@ -1,4 +1,5 @@
 require('./css/main.css');
+require('./css/vars.css');
 require('./css/atom/headings.css');
 require('./css/atom/links.css');
 

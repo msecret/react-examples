@@ -5,6 +5,7 @@
   "main": "public/index.html",
   "devDependencies": {
     "css-loader": "^0.14.4",
+    "cssnext-loader": "^1.0.1",
     "extract-text-webpack-plugin": "^0.8.1",
     "node-libs-browser": "^0.5.2",
     "postcss-loader": "^0.4.4",
