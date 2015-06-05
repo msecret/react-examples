@@ -11,9 +11,17 @@ h1, h2, h3, h4, h5 {
   font-family: 'Helvetica', 'Arial';
 }
 
+@media (--viewport-sm) {
+  h2 {
+    color: black;
+    font-size: calc(6rem - 2rem) !important;
+  }
+}
+
 h1 {
   font-size: 14rem;
 }
+
 h2 {
   font-size: 10rem;
 }
