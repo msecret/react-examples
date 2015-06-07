@@ -5,4 +5,19 @@
 }
 
 :local(.base) {
+  width: 20rem;
+}
+
+:local(.h) {
+  display: inline-block;
+  margin-right: 10%;
+}
+
+:local(.control) {
+  float: right;
+  margin-right: 10%;
+}
+
+:local(.hidden) {
+  display: none;
 }

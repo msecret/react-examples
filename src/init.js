@@ -7,5 +7,16 @@ import './css/vars.css';
 import './css/atom/headings.css';
 import './css/atom/links.css';
 
+var items = [];
 
-React.render(<Accordion />, document.querySelector('.js-accordion'));
+items.push({
+  title: 'Item A',
+  p: 'Some content that says something simple'
+});
+items.push({
+  title: 'Item B',
+  p: 'Different content that says something else simple'
+});
+
+React.render(<Accordion content={ items[0] } />,
+    document.querySelector('.js-accordion'));
