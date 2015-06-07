@@ -1,12 +1,14 @@
 
+@import 'vars.css';
+
 a {
-  color: #1188ff;
+  color: var(--primary);
 }
 
 a:hover {
-  color: #026cd6;
+  color: color(var(--primary) w(+ 20%) s(+ 20%));
 }
 
 a: visited {
-  color: #2e91f4;
+  color: color(var(--primary) w(+ 10%) s(+ 10%));
 }

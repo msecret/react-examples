@@ -2,35 +2,43 @@
 @import 'vars.css';
 
 :root {
-  --primary: yellow;
+  --scale_sm: .5;
 }
 
 h1, h2, h3, h4, h5 {
-  color: var(--primary);
-  background: var(--secondary);
+  color: var(--dark);
   font-family: 'Helvetica', 'Arial';
 }
 
-@media (--viewport-sm) {
-  h2 {
-    color: black;
-    font-size: calc(6rem - 2rem) !important;
-  }
-}
-
 h1 {
-  font-size: 14rem;
+  font-size: 12rem;
+}
+@media (--viewport-sm) {
+  font-size: calc(12rem * var(--scale_sm));
 }
 
 h2 {
-  font-size: 10rem;
+  font-size: 8rem;
 }
+@media (--viewport-sm) {
+  font-size: calc(8rem * var(--scale_sm));
+}
+
 h3 {
   font-size: 6rem;
 }
+@media (--viewport-sm) {
+  font-size: calc(6rem * var(--scale_sm));
+}
+
 h4 {
   font-size: 3rem;
 }
+@media (--viewport-sm) {
+  font-size: calc(3rem * var(--scale_sm));
+}
+
 h5 {
   font-size: 1.5rem;
 }
+
