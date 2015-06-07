@@ -14,6 +14,9 @@ module.exports = {
 
   module: {
     loaders: [
+      { test: /\.jsx?$/,
+        loader: 'babel?optional[]=runtime',
+        exclude: /node_modules/ },
       { test: /\.css$/,
         loader: ExtractTextPlugin.extract(
           'style-loader',
@@ -25,6 +28,10 @@ module.exports = {
   postcss: [ postcss_local_scope ],
   cssnext: {
     from: './src/css/main.css'
+  },
+
+  resolve: {
+    modulesDirectories: ['node_modules', 'components']
   },
 
   plugins: [

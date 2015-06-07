@@ -3,7 +3,7 @@
   --color: red;
 }
 
-:local(.foo) {
+:local(.base) {
   color: var(--color);
   text-decoration: underline;
 }

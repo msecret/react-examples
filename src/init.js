@@ -1,8 +1,12 @@
-require('./css/main.css');
-require('./css/vars.css');
-require('./css/atom/headings.css');
-require('./css/atom/links.css');
 
-var accordion = require('./components/accordion/accordion.js');
+import React from 'react';
 
-document.querySelector('body').appendChild(accordion.init());
+import Accordion from './components/accordion/accordion.jsx'
+
+import './css/main.css';
+import './css/vars.css';
+import './css/atom/headings.css';
+import './css/atom/links.css';
+
+
+React.render(<Accordion />, document.querySelector('.js-accordion'));
