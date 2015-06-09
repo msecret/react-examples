@@ -11,6 +11,8 @@
     "cssnext-loader": "^1.0.1",
     "extract-text-webpack-plugin": "^0.8.1",
     "jsx-loader": "^0.13.2",
+    "node-babel": "^0.1.2",
+    "node-jsx": "^0.13.3",
     "node-libs-browser": "^0.5.2",
     "postcss-loader": "^0.4.4",
     "postcss-local-scope": "0.0.5",
@@ -35,6 +37,9 @@
   },
   "homepage": "https://github.com/msecret/react-examples#readme",
   "dependencies": {
+    "express": "^4.12.4",
+    "express-handlebars": "^2.0.1",
+    "handlebars": "^3.0.3",
     "react": "^0.13.3"
   }
 }
